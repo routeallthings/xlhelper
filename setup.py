@@ -10,5 +10,5 @@ setup(name='xlhelper',
       packages=['xlhelper'],
       zip_safe=False,
       install_requires=open('requirements.txt', 'r').readlines(),
-      python_requires='>=3, <4',
+      python_requires='>=2, <4',
       )
